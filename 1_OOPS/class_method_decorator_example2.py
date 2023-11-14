@@ -9,7 +9,7 @@ class Circle:
    @classmethod
    def create_circle_with_area(cls, desired_area):
       radius = (desired_area / 3.14159) ** 0.5
-      return cls(radius)  # clean initialization of radius attribute after some calculation 
+      return cls(radius)  # clean initialization of radius attribute after some calculation.
 
 # Usage
 circle = Circle.create_circle_with_area(50)  # Create a circle with the desired area
